@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mexican Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" id="toggle-menu">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#food">Category</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <h1 class="logo">MX</h1>
+        </div>
+    </nav>
+
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Authentic Mexican Cuisine</h1>
+            <p>Experience the vibrant flavors of Mexico.</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>Serving delicious Mexican food for over 10 years</h2>
+                <p>
+                    Our restaurant specializes in traditional Mexican dishes prepared with fresh ingredients and authentic recipes.
+                    From tacos to enchiladas, every bite delivers the taste of Mexico.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://www.mashed.com/img/gallery/mexican-foods-you-need-to-try-before-you-die/intro-1585677665.jpg" alt="mexican-food" />
+            </div>
+        </div>
+    </section>
+
+    <section id="food">
+        <h2>Types of Mexican Food</h2>
+        <div class="food-container container">
+            <div class="food-type tacos">
+                <div class="img-container">
+                    <img src="https://media.istockphoto.com/photos/overhead-photo-of-assortment-of-mexican-tapas-picture-id955992944?k=20&m=955992944&s=612x612&w=0&h=82qOfcRGuh_cQaZPti_nlVRYZqSacrxhnvMO_zyG0F8=" alt="tacos" />
+                    <div class="img-content">
+                        <h3>Tacos</h3>
+                        <a href="https://en.wikipedia.org/wiki/Taco" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type burritos">
+                <div class="img-container">
+                    <img src="https://www.chefspencil.com/wp-content/uploads/Burritos-960x960.jpg" alt="burritos" />
+                    <div class="img-content">
+                        <h3>Burritos</h3>
+                        <a href="https://en.wikipedia.org/wiki/Burrito" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type quesadillas">
+                <div class="img-container">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.unGuBrX9w0FeGLZg2iS8xAHaHj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="quesadillas" />
+                    <div class="img-content">
+                        <h3>Quesadillas</h3>
+                        <a href="https://en.wikipedia.org/wiki/Quesadilla" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Our Menu</h2>
+        <div class="food-menu-container container">
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://bing.com/th?id=OSK.8840b952008c3dfa50d7f81f135995a3" alt="taco" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Beef Tacos</h2>
+                    <p>Soft tortillas filled with seasoned beef, cheese, and fresh vegetables.</p>
+                    <p class="food-price">Price: $15.50</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://xoxobella.com/wp-content/uploads/2023/05/crockpot-chicken-burritos-06-1025x1536-1-1024x682.jpg" alt="burrito" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Chicken Burrito</h2>
+                    <p>Large flour tortilla stuffed with chicken, beans, rice, and salsa.</p>
+                    <p class="food-price">Price: $14.50</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://bing.com/th?id=OSK.3e783ee53dd76975e826561a3401d052" alt="quesadilla" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Cheese Quesadilla</h2>
+                    <p>Crispy tortilla filled with melted cheese and served with guacamole.</p>
+                    <p class="food-price">Price: $16.50</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://www.camelliabrand.com/static/wp-content/uploads/2018/07/mg_6566_cxlais-scaled.jpg" alt="nachos" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Loaded Nachos</h2>
+                    <p>Tortilla chips topped with cheese, beans, salsa, and jalapeños.</p>
+                    <p class="food-price">Price: $8.20</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://bing.com/th?id=OSK.0a6f9cc796b39c81868817a49594a15d" alt="enchiladas" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Chicken Enchiladas</h2>
+                    <p>Rolled tortillas filled with chicken and topped with spicy enchilada sauce.</p>
+                    <p class="food-price">Price: $15.35</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://bing.com/th?id=OSK.00ca193e97eef6b966ef15f7e2cd1bd7" alt="churros" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Churros</h2>
+                    <p>Sweet fried dough sprinkled with cinnamon sugar, served with chocolate sauce.</p>
+                    <p class="food-price">Price: $7.50</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2 class="testimonial-title">Customer Reviews</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.ffdXOBHLoPQoSPvAsIQd4AHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="customer1" />
+                        <p class="customer-name">Carlos Mendez</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">The tacos were amazing! Fresh ingredients and authentic flavors.</p>
+            </div>
+
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.9vGhUQixqtRBJmW3VPh7mgHaFE?rs=1&pid=ImgDetMain&o=7&rm=3" alt="customer2" />
+                        <p class="customer-name">Sofia Ramirez</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Best Mexican food in town! Highly recommend the burritos.</p>
+            </div>
+
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://thumbs.dreamstime.com/b/portrait-funny-happy-woman-drinking-coffee-cafe-relax-joke-comedy-club-face-girl-customer-laugh-restaurant-329762142.jpg" alt="customer3" />
+                        <p class="customer-name">Luis Hernandez</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Loved the quesadillas and churros! Great service too.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="restaurant" />
+            </div>
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <h2>Mexican Restaurant &copy; All Rights Reserved</h2>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
